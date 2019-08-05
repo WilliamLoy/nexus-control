@@ -9,3 +9,10 @@
     top: 0px;
     z-index: 1;
 }
+
+@media screen and (max-width: 400px){
+
+  .sticky {
+    position: relative;
+  }
+}
