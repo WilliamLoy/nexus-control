@@ -64,50 +64,7 @@
   .two.columns                    { width: 13.3333333333%; }
 
   // three.columns media queries set the column width and position of the page-sidebar element
-/*  @media screen and (max-width: 374px){
-
-    label {
-      display: block;
-    }
-    #toggle:checked + .three.columns{
-      display: block;
-    }
-    .three.columns {
-      max-width: 30%;
-      float: none;
-      text-align: center;
-      display: none;
-    }
-    .three.columns a {
-      display: block;
-      border-bottom: 1px solid;
-  }
-}*/
-
-  @media screen and (min-width: 375) and (max-width: 420px){
-
-    .three.columns {
-      max-width: 40%;
-      float: none;
-      padding: 5px 0px 5px 0px;
-      text-align: center;
-    }
-  }
-  @media screen and (min-width: 421px) and (max-width: 700px){
-
-    .three.columns {
-      max-width: 40%;
-      float: none;
-      padding: 5px 0px 5px 0px;
-      text-align: center;
-    }
-  }
-  @media screen and (min-width: 980px){
-
-    .three.columns {
-      max-width: 22%;
-    }
-  }
+  .three.columns                  { width: 22%;            }
   .four.columns                   { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
   .six.columns                    { width: 48%;            }
@@ -115,31 +72,30 @@
   .eight.columns                  { width: 65.3333333333%; }
   // nine.columns media queries set the column width of the product landing pages and all aritcles pages
 
-  @media screen and (max-width: 374px){
+  @media screen and (max-width: 375px){
 
     .nine.columns {
       max-width: 30%;
       float: none;
-      text-align: center;
+      text-align: left;
     }
   }
-  @media screen and (min-width: 375px) and (max-width: 420px){
+  @media screen and (min-width: 376px) and (max-width: 700px){
 
     .nine.columns {
       max-width: 35%;
       float: none;
-      text-align: center;
+      text-align: left;
     }
   }
-  @media screen and (min-width: 421px) and (max-width: 700px){
+  @media screen and (min-width: 701px) and (max-width: 980px){
 
     .nine.columns {
-      max-width: 35%;
-      float: none;
-      text-align: center;
+      max-width: 77%;
+      text-align: left;
     }
   }
-  @media screen and (min-width: 980px){
+  @media screen and (min-width: 981px){
 
     .nine.columns {
       max-width: 74%;
